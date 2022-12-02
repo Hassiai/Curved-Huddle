@@ -1,0 +1,378 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%
+}
+
+nav {
+    margin: 0 auto;
+    padding: 2em 0;
+    width: 90%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.icn--logo {
+    width: 10rem;
+}
+
+#header-button {
+    padding: 0.5em 1.5em;
+    background-color: #fff;
+    border-radius: 2em;
+    border: 1px solid hsl(0, 100%, 63%);
+    cursor: pointer;
+    color: hsl(0, 100%, 63%);
+}
+
+.container {
+    width: 85%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+section {
+    padding: 7em 0;
+}
+
+
+
+.first-content {
+    text-align: center;
+    padding: 1em 0;
+}
+
+.first-content p {
+    padding: 1em 0;
+}
+
+.content--button {
+    padding: 0.8em 3em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 2em;
+    margin: 2em 0;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.details {
+    padding: 2em 0;
+    display: grid;
+    place-content: center;
+}
+
+.communities,
+.messages {
+    padding: 2em 0;
+}
+
+.communities p,
+.messages p {
+    text-align: center;
+    opacity: 0.5;
+}
+
+.communities h2,
+.messages h2 {
+    font-size: 3rem;
+}
+
+.section1 {
+    background-image: url(bg-section-top-mobile-1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom -1rem right 0;
+}
+
+.section2,
+.section4 {
+
+    background-color: hsl(207, 100%, 98%);
+}
+
+.section3 {
+    background-image: url(bg-section-bottom-mobile-1.svg),
+        url(bg-section-top-mobile-2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top -0.5rem right 0,
+        bottom -0.5rem right 0;
+}
+
+.section2 img,
+.section3 img,
+.section4 img {
+    margin-bottom: 2em;
+}
+
+
+.grow-together--content,
+.flow-conversation--content,
+.users--content {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.grow-together--content p,
+.flow-conversation--content p,
+.users--content p,
+.news-letter p,
+.extra-details p {
+    padding: 1em 0;
+}
+
+.section5 {
+    text-align: center;
+    background-image: url(bg-footer-top-mobile.svg),
+        url(bg-section-bottom-mobile-2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom -0.8rem right 0,
+        top -1rem right 0;
+}
+
+
+footer {
+
+    padding: 1em 0;
+    background-color: hsl(192, 100%, 9%);
+    color: #fff;
+
+}
+
+.news-letter {
+    padding: 1em 0;
+    position: relative;
+    padding-bottom: 4em;
+}
+
+.news-letter h2 {
+    text-transform: uppercase;
+}
+
+.extra-details img {
+    margin-right: 0.5em;
+
+}
+
+.extra-details h1 {
+    font-size: 3rem;
+}
+
+.form {
+    padding: 2em 0;
+}
+
+#input {
+    width: 100%;
+    padding: 1em 0;
+    border-radius: 0.5em;
+    background-color: #fff;
+    border: none;
+
+
+}
+
+.input-prompt {
+    display: none;
+}
+
+#footer-button {
+
+    padding: 1em 2em;
+    margin: 1em 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 0.4em;
+    border: none;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    position: absolute;
+    top: 70%;
+    right: 0;
+}
+
+.extra-details {
+
+    padding: 1em 0;
+}
+
+.footer-logo {
+    fill: #fff;
+}
+
+.phone,
+.mail,
+.footer-logo-icon {
+    display: flex;
+    align-items: center;
+}
+
+.phone p,
+.mail p {
+    margin-left: 1em;
+}
+
+
+.fa-brands {
+    margin: 1em 0;
+    font-size: 1.25rem;
+    color: #fff;
+    cursor: pointer;
+    padding-right: 0.5em;
+
+}
+
+.content--button:hover,
+#footer-button:hover {
+    background-color: hsl(321, 100%, 78%);
+}
+
+
+#input:hover {
+    border: 0.5px solid hsl(0, 100%, 63%);
+    cursor: pointer;
+}
+
+.form:focus-within .input-prompt {
+    display: block;
+    padding-top: 0.5em;
+    font-size: 0.8rem;
+    color: hsl(0, 100%, 63%);
+}
+
+.fa-brands:hover {
+    color: cyan;
+}
+
+@media (min-width: 600px) {
+
+
+    .container {
+        width: 70%
+    }
+
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section1 {
+
+        background-image: url(bg-section-top-desktop-1.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom -1rem right 0;
+        padding-bottom: 10em;
+    }
+
+    .rid {
+        display: grid;
+        place-items: center;
+    }
+
+    .first-content {
+        width: 50%;
+
+    }
+
+    .content--button {
+        padding: 1em 4em;
+    }
+
+    .section2,
+    .section4 {
+        padding-top: 0.5em;
+
+    }
+
+    .section3 {
+        background-image: url(bg-section-bottom-desktop-1.svg),
+            url(bg-section-top-desktop-2.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top -1rem right 0,
+            bottom -1rem right 0;
+        padding-bottom: 12em;
+    }
+
+    .section5 {
+        padding: 12em 0;
+        ;
+        background-image: url(bg-footer-top-desktop.svg),
+            url(bg-section-bottom-desktop-2.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom -0.5rem right 0,
+            top -0.5rem right 0;
+    }
+
+    .section2 img,
+    .section3 img,
+    .section4 img {
+        width: 40%;
+        margin: 0;
+    }
+
+    .section2 img,
+    .section4 img {
+        order: 1;
+    }
+
+    .grow-together--content,
+    .users--content,
+    .flow-conversation--content {
+        width: 50%;
+        align-self: center;
+        text-align: left;
+    }
+
+
+
+    .news-letter {
+        width: 35%;
+        order: 1;
+    }
+
+    #input {
+        width: 80%;
+    }
+
+    #footer-button {
+        padding: 0.8em 2em;
+        right: -4rem;
+        top: 11.4rem;
+    }
+
+    .extra-details {
+        width: 35%;
+
+    }
+
+}

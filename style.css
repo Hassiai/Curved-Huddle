@@ -356,6 +356,7 @@ footer {
 
 
     .news-letter {
+        padding:2em 0;
         width: 35%;
         order: 1;
     }
@@ -367,7 +368,7 @@ footer {
     #footer-button {
         padding: 0.8em 2em;
         right: -4rem;
-        top: 1.125rem;
+        top: 1.5rem;
     }
 
     .extra-details {
